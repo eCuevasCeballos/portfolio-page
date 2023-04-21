@@ -13,7 +13,7 @@ const NavBar = () => {
         },
         {
             id: 2,
-            link: 'about-me'
+            link: 'about me'
         },
         {
             id: 3,
@@ -30,14 +30,14 @@ const NavBar = () => {
     ]
 
   return (
-    <div className='flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed'>
+    <div className='flex justify-between items-center w-full h-20  text-white bg-dark-gray fixed'>
         <div>
-            <h1 className='text-5xl font-medium'>Erick</h1>
+            <h1 className='text-5xl font-header pl-20'> <span className='text-blue font-icon font-semibold'>&#60;&#47;&#62;</span> Erick</h1>
         </div>
-        <ul className='hidden md:flex'>
+        <ul className='hidden md:flex pr-20'>
 
             {Links.map(link => (
-                <li key={link.id} className='px-4 cursor-pointer capitalize font-medium hover:scale-110 duration-300'>
+                <li key={link.id} className='px-6 cursor-pointer text-1xl capitalize font-medium hover:scale-110 duration-300'>
                     {link.link}
                 </li>
             ))}

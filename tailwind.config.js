@@ -5,6 +5,17 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      header: ['Ubuntu'],
+      icon: ['Roboto']
+    },
+    colors:{
+      'dark-gray' : '#1b1f24',
+      'medium-gray': '#21282f',
+      'light-gray' : '#232b35',
+      'blue' : '#075fe4',
+      'white' : '#ffffff'
+    }
   },
   plugins: [],
 }
