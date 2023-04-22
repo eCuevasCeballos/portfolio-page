@@ -32,12 +32,12 @@ const NavBar = () => {
   return (
     <div className='flex justify-between items-center w-full h-20  text-black px-5 py-5 top-0'>
         <div>
-            <h1 className='text-3xl font-header md:pl-20 md:text-4xl'> <span className='text-blue font-icon font-semibold'>&#60;&#47;&#62;</span>Erick<span className='text-blue'>.</span></h1>
+            <h1 className='text-3xl font-header md:pl-20 md:text-4xl'> <span className='text-blue font-icon font-semibold'>&#60;<span className='text-blue'>&#47;</span>&#62;</span>Erick<span className='text-blue'>.</span></h1>
         </div>
         <ul className='hidden md:flex pr-20'>
 
             {Links.map(link => (
-                <li key={link.id} className='px-6 cursor-pointer text-1xl capitalize font-medium hover:scale-110 duration-300'>
+                <li key={link.id} className='px-6 cursor-pointer text-1xl capitalize font-medium hover:scale-110 duration-300 hover:text-blue'>
                     {link.link}
                 </li>
             ))}
