@@ -9,16 +9,56 @@ import Project3 from '../assets/projects-3.png'
 import Project4 from '../assets/projects-4.png'
 import Project5 from '../assets/projects-5.png'
 import Project6 from '../assets/projects-6.png'
+import Description1 from '../assets/Descriptions/projects-1.json'
+import Description2 from '../assets/Descriptions/projects-2.json'
+import Description3 from '../assets/Descriptions/projects-3.json'
+import Description4 from '../assets/Descriptions/projects-4.json'
+import Description5 from '../assets/Descriptions/projects-5.json'
+import Description6 from '../assets/Descriptions/projects-6.json'
 
 const Projects = () => {
 
   const images = [
+ 
     Project1,
     Project2,
     Project3,
     Project4,
     Project5,
     Project6
+  ]
+
+  const projects = [
+    {
+      id : 1,
+      title : 'Social Proof Component',
+      description : Description1
+    },
+    {
+      id : 2,
+      title : 'Order Summary Component',
+      description : Description2
+    },
+    {
+      id : 3,
+      title : 'FAQ Component',
+      description : Description3
+    },
+    {
+      id : 4,
+      title : 'Article Overview',
+      description : Description4
+    },
+    {
+      id : 5,
+      title : 'E-sports Magazine',
+      description : Description5
+    },
+    {
+      id : 6,
+      title : 'Interactive Rating Component',
+      description : Description6
+    }
   ]
 
 const [icon, setIcon] = useState(false)
@@ -30,9 +70,10 @@ const [icon, setIcon] = useState(false)
         <div onClick={() => (setIcon(!icon))}>
             {icon ? <FaGripHorizontal  size={30} /> : <BiCarousel size={30} />}
         </div>
-      </div>
-        <div className='pt-6'>
-        {icon ? <Carousel images={images}/> : <Grid />}
+      </div >
+        <div className='py-20 pb-0'>
+        {icon ? <Carousel images={images} /> : <Grid />}
+        
         </div>
     </div>
 
