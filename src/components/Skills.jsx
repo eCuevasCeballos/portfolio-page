@@ -49,11 +49,10 @@ const Skills = () => {
 
 
   return (
-    <div className='h-fit w-full'>
+    <div className='h-fit w-full' id='skills'>
      <div className='bg-light-gray md:w-full md:m-0 md:p-10'>
-       <h3 className='text-white font-bold text-2xl pt-10 pl-9 mb-4'><span className='text-orange font-icon font-bold px-3'>&#60;&#47;&#62;</span>Skills</h3>
-       <div className='items-center justify-center mx-auto grid grid-cols-2 grid-rows-3 px-2 py-4 w-3/4 justify-items-center gap-x-7 gap-y-10'>
-        
+       <h3 className='text-white font-bold text-2xl pt-10 mb-4 pl-9 md:w-3/5 md:mx-auto md:text-3xl' ><span className='text-orange font-icon font-bold px-3'>&#60;&#47;&#62;</span>Skills</h3>
+       <div className='items-center justify-center mx-auto grid grid-cols-2 grid-rows-3 px-2 py-4 w-3/4 justify-items-center gap-x-7 gap-y-10 sm:grid-cols-6 sm:grid-rows-1'>
         {
             skills.map(skills =>(
                 <div  className={`w-full h-auto p-5 bg-dark-gray rounded-lg shadow-2xl ${skills.color} cursor-pointer`}>
@@ -65,7 +64,7 @@ const Skills = () => {
         </div>
        <div className='py-6 text-center'>
         <a href='https://docs.google.com/document/d/1J09Rl1Wz5n44MjQxIaWdjwv57gLw3v-e2L7ev1mjToU/edit?usp=sharing' target='_blank' rel='noopener noreferrer'>
-        <button className='font-bold text-white border-2 border-orange bg-orange w-1/2 p-3 rounded-full mb-7 hover:border-2 hover:border-white hover:bg-light-gray'>Get my CV</button>
+        <button className='font-bold text-white border-2 border-orange bg-orange w-1/2 p-3 rounded-full mb-7 hover:border-2 hover:border-white hover:bg-light-gray sm:w-1/3 md:w-1/4'>Get my CV</button>
         </a>
        </div>
      </div>

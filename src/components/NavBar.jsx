@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import {FaBars, FaTimes} from 'react-icons/fa'
+import { Link } from 'react-scroll';
+
 
 
 const NavBar = () => {
@@ -28,9 +30,10 @@ const NavBar = () => {
             link: 'contact'
         }
     ]
+    
 
   return (
-    <div className='flex justify-between items-center w-full h-20  text-black px-5 py-5 top-0'>
+    <div className='flex justify-between items-center w-full h-20  text-black px-5 py-5 top-0 fixed bg-white shadow-2xl'>
         <div>
             <h1 className='text-3xl font-header md:pl-20 md:text-4xl'> <span className='text-blue font-icon font-semibold'>&#60;<span className='text-blue'>&#47;</span>&#62;</span>Erick<span className='text-blue'>.</span></h1>
         </div>
@@ -38,7 +41,7 @@ const NavBar = () => {
 
             {Links.map(link => (
                 <li key={link.id} className='px-6 cursor-pointer text-1xl capitalize font-medium hover:scale-110 duration-300 hover:text-blue'>
-                    {link.link}
+                    <Link to={link.link} smooth duration={500}>{link.link}</Link>
                 </li>
             ))}
 
@@ -50,8 +53,8 @@ const NavBar = () => {
         {nav && (
          <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen to-gray-800 to-gray-500  bg-gradient-to-b from-dark-gray to-light-gray text-white'>
         {Links.map(link => (
-                <li key={link.id} className='px-4 cursor-pointer capitalize py-6 text-3xl font-light  items-center justify-center'>
-                    {link.link}
+                <li key={link.id} className='px-4 cursor-pointer capitalize py-6 text-3xl font-light  items-center justify-center hover:scale-110 duration-300 hover:text-orange'>
+                    <Link onClick={() => setNav(!nav)} to={link.link} smooth duration={500}>{link.link}</Link>
                 </li>
             ))}
         </ul>   

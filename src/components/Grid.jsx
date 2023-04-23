@@ -68,19 +68,19 @@ const Grid = () => {
     ]
 
   return (
-    <div>
+    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-items-center place-items-center'>
         
             {projects.map(projects =>(
-                <div className='mb-20 shadow-2xl rounded-lg overflow-hidden'>
+                <div className='mb-20 shadow-2xl rounded-lg overflow-hidden md:w-4/5'>
                 <img key={projects.id} src={projects.img} alt="project screenshot" />
                 <h3 className='px-4 py-3 text-2xl font-semibold flex justify-center'>{projects.title}</h3>
-                <p className='px-4 text-justify'>{projects.description}</p>
+                <p className='px-4'>{projects.description}</p>
             <div className='flex justify-center items-center py-4 cursor-pointer font-medium'>
                 <RiShareBoxLine size={30} className='text-light-gray '/>
-                <a href={projects.live} className='text-1xl text-light-gray px-4 hover:text-blue hover:scale-110 duration-300'>See Live</a>
+                <a href={projects.live} target='_blank' rel='noopener noreferrer' className='text-1xl text-light-gray px-4 hover:text-blue hover:scale-110 duration-300'>See Live</a>
                 <p className='text-3xl pr-4'>|</p>
                 <BsGithub size={30} className='text-light-gray'/>
-                <a href={projects.github} className='text-1xl text-light-gray px-4 hover:text-blue hover:scale-110 duration-300'>View Code</a>
+                <a href={projects.github} target='_blank' rel='noopener noreferrer' className='text-1xl text-light-gray px-4 hover:text-blue hover:scale-110 duration-300'>View Code</a>
             </div>
             </div>
             ))}     

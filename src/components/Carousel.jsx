@@ -70,7 +70,7 @@ const Carousel = ({ images }) => {
   };
 
   return (
-    <div className="carousel shadow-2xl rounded-lg overflow-hidden">
+    <div className="carousel shadow-2xl rounded-lg overflow-hidden md:w-1/2 mx-auto w-full">
       <div className="carousel__image">
         <img src={images[currentIndex]} alt={`Slide ${currentIndex}`} />
             <div>
@@ -84,10 +84,10 @@ const Carousel = ({ images }) => {
       <div className="flex justify-center items-center py-2 cursor-pointer font-medium">
       <button onClick={goToPrevSlide} className="px-3 text-light-gray hover:scale-125 duration-300"><GrPrevious size={25}/></button>
         <RiShareBoxLine size={35} className='text-light-gray '/>
-        <a href={project.live} className='text-1xl text-light-gray px-4 hover:text-blue hover:scale-110 duration-300'>See Live</a>
+        <a href={project.live} target='_blank' rel='noopener noreferrer' className='text-1xl text-light-gray px-4 hover:text-blue hover:scale-110 duration-300'>See Live</a>
         <p className='text-3xl pr-4'>|</p>
         <BsGithub size={35} className='text-light-gray'/>
-        <a href={project.github} className='text-1xl text-light-gray px-4 hover:text-blue hover:scale-110 duration-300'>View Code</a>
+        <a href={project.github} target='_blank' rel='noopener noreferrer' className='text-1xl text-light-gray px-4 hover:text-blue hover:scale-110 duration-300'>View Code</a>
         <button onClick={goToNextSlide} className="px-3 text-light-gray hover:scale-125 duration-300"><GrNext size={25}/></button>
         </div>
       <div className="carousel__buttons flex justify-between p-2 md:px-20"> 
