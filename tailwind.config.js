@@ -17,7 +17,12 @@ module.exports = {
       'white' : '#ffffff',
       'orange' : '#F06F02',
       'black' : '#000',
-      'light-blue' : '#011A6D'
+      'html' : '#e54c21',
+      'css' : '#214ce5',
+      'js' : '#f0db4f',
+      'jsx' : '#61dbfb',
+      'tailwind' : '#01b7d6',
+      'studio' : '#0085ca'
     }
   },
   plugins: [],
