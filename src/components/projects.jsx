@@ -11,6 +11,7 @@ import Project5 from '../assets/projects-5.png'
 import Project6 from '../assets/projects-6.png'
 
 
+
 const Projects = () => {
 
   const images = [
