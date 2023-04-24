@@ -63,7 +63,7 @@ const Skills = () => {
         }
         </div>
        <div className='py-6 text-center'>
-        <a href='https://docs.google.com/document/d/1J09Rl1Wz5n44MjQxIaWdjwv57gLw3v-e2L7ev1mjToU/edit?usp=sharing' target='_blank' rel='noopener noreferrer'>
+        <a href='https://drive.google.com/file/d/1fWgm-Phs9s2Sry-qlg81yoZYxPt73xf4/view?usp=sharing' target='_blank' rel='noopener noreferrer'>
         <button className='font-bold text-white border-2 border-orange bg-orange w-1/2 p-3 rounded-full mb-7 hover:border-2 hover:border-white hover:bg-light-gray sm:w-1/3 md:w-1/4'>Get my CV</button>
         </a>
        </div>
