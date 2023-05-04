@@ -54,7 +54,7 @@ const NavBar = () => {
          <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen to-gray-800 to-gray-500  bg-gradient-to-b from-dark-gray to-light-gray text-white'>
         {Links.map(link => (
                 <li key={link.id} className='px-4 cursor-pointer capitalize py-6 text-3xl font-light  items-center justify-center hover:scale-110 duration-300 hover:text-orange'>
-                    <Link onClick={() => setNav(!nav)} to={link.link} smooth duration={500}>{link.link}</Link>
+                    <Link onClick={() => setNav(!nav)} to={link.link} smooth duration={500} offset={-100}>{link.link}</Link>
                 </li>
             ))}
         </ul>   
