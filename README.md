@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Front End Developer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a portfolio page showcasing my work and skills as a front end developer.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+ -Home
+ -About Me
+ -Projects
+ -Skills
+ -Contact
 
-### `npm start`
+ ### Home
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The home section of the portfolio page welcomes visitors with a visually appealing layout and an introduction to the front end developer. It sets the tone for the rest of the page and invites users to explore further.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ ### About me
 
-### `npm test`
+The about me section provides a brief but informative overview of the front end developer's background, skills, and passion for web development. It may include details about their education, work experience, and areas of expertise. This section helps visitors get to know the developer on a personal and professional level.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ ### Projects
 
-### `npm run build`
+The projects section showcases a selection of the front end developer's notable projects. Each project is presented with a title, description, and relevant technologies used. Visitors can explore the projects to see the developer's problem-solving abilities, design skills, and attention to detail. Links to live demos or GitHub repositories may be provided for further exploration.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ ### Skills
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The skills section highlights the technical skills and tools that the front end developer possesses. It may include programming languages, frameworks, libraries, and other technologies that the developer is proficient in. This section gives visitors an understanding of the developer's capabilities and expertise in building web applications.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ ### Contact
+ 
+ The contact section provides visitors with various ways to get in touch with the front end developer. It typically includes contact information such as an email address, phone number, or links to social media profiles. A contact form may be included to facilitate direct communication. This section encourages potential clients, collaborators, or employers to reach out and initiate further discussions.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Please note that the provided description is based on the general expectations and standard sections found on portfolio websites. The actual content and details on the provided portfolio page may vary.
