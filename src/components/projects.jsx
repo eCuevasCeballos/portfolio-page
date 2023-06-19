@@ -10,12 +10,14 @@ import Project3 from '../assets/projects-3.png'
 import Project4 from '../assets/projects-4.png'
 import Project5 from '../assets/projects-5.png'
 import Project6 from '../assets/projects-6.png'
+import Project7 from '../assets/projects-7.png'
 import Description1 from '../assets/Descriptions/projects-1.json'
 import Description2 from '../assets/Descriptions/projects-2.json'
 import Description3 from '../assets/Descriptions/projects-3.json'
 import Description4 from '../assets/Descriptions/projects-4.json'
 import Description5 from '../assets/Descriptions/projects-5.json'
 import Description6 from '../assets/Descriptions/projects-6.json'
+import Description7 from '../assets/Descriptions/projects-7.json'
 
 
 
@@ -24,16 +26,17 @@ const Projects = () => {
   /* Array */
   const projects = {
 
-    images: [Project1, Project2, Project3, Project4, Project5, Project6],
-    title : ['Social Proof Component', 'Order Summary Component', 'FAQ Component', 'Article Overview', 'E-sports Magazine', 'Interactive Rating Component'],
-    description : [Description1, Description2, Description3, Description4, Description5, Description6],
+    images: [Project1, Project2, Project3, Project4, Project5, Project6, Project7],
+    title : ['Social Proof Component', 'Order Summary Component', 'FAQ Component', 'Article Overview', 'E-sports Magazine', 'Interactive Rating Component', 'Rick & Morty api'],
+    description : [Description1, Description2, Description3, Description4, Description5, Description6, Description7],
     live : [
       'https://social-proof-section-ec.netlify.app/',
       'https://order-summary-ec.netlify.app/',
       'https://faq-accordion-card-ec.netlify.app/',
       'https://article-preview-ec.netlify.app/',
       'https://cosmo-techno.netlify.app/',
-      'https://interactive-rating-component-ec.netlify.app/'
+      'https://interactive-rating-component-ec.netlify.app/',
+      'https://spectacular-froyo-ed5cfc.netlify.app/'
     ],
     github : [
       'https://github.com/eCuevasCeballos/social-proof-section-master',
@@ -41,7 +44,8 @@ const Projects = () => {
       'https://github.com/eCuevasCeballos/faq-accordion-card-main',
       'https://github.com/eCuevasCeballos/article-preview-component-master',
       'https://github.com/eCuevasCeballos/Proyecto_interfaces',
-      'https://github.com/eCuevasCeballos/interactive-rating-component-main'
+      'https://github.com/eCuevasCeballos/interactive-rating-component-main',
+      'https://github.com/eCuevasCeballos/rick-and-morty'
     ] 
   }
     
