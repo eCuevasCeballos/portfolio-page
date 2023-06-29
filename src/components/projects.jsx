@@ -36,7 +36,7 @@ const Projects = () => {
       'https://article-preview-ec.netlify.app/',
       'https://cosmo-techno.netlify.app/',
       'https://interactive-rating-component-ec.netlify.app/',
-      'https://spectacular-froyo-ed5cfc.netlify.app/'
+      'https://rick-morty-info-ec.netlify.app/'
     ],
     github : [
       'https://github.com/eCuevasCeballos/social-proof-section-master',
